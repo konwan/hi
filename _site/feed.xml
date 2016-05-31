@@ -1,35 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://konwan.github.io/sample/feed.xml" rel="self" type="application/atom+xml" /><link href="http://konwan.github.io/sample/" rel="alternate" type="text/html" /><updated>2016-05-31T11:29:16+08:00</updated><id>http://konwan.github.io/sample/</id><title>Smile World</title><subtitle>little people little life, happy people happy life</subtitle><author><name>Konwan</name><email>happy@happy.com</email></author><entry><title>Test</title><link href="http://konwan.github.io/sample/test/" rel="alternate" type="text/html" title="Test" /><published>2016-04-09T00:00:00+08:00</published><updated>2016-04-09T00:00:00+08:00</updated><id>http://konwan.github.io/sample/test</id><content type="html" xml:base="http://konwan.github.io/sample/test/">&lt;p&gt;:
-  - Markup
-tags:
-  - alignment
-  - content
-  - css
-  - markup
-—&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.1.6">Jekyll</generator><link href="http://konwan.github.io/hi/feed.xml" rel="self" type="application/atom+xml" /><link href="http://konwan.github.io/hi/" rel="alternate" type="text/html" /><updated>2016-05-31T12:37:14+08:00</updated><id>http://konwan.github.io/hi/</id><title>Smile World</title><subtitle>little people little life, happy people happy life</subtitle><author><name>Konwan</name><email>happy@happy.com</email></author><entry><title>Hello~</title><link href="http://konwan.github.io/hi/life/hello/" rel="alternate" type="text/html" title="Hello~" /><published>2016-05-31T00:00:00+08:00</published><updated>2016-05-31T00:00:00+08:00</updated><id>http://konwan.github.io/hi/life/hello</id><content type="html" xml:base="http://konwan.github.io/hi/life/hello/">&lt;h3 id=&quot;foreword&quot;&gt;Foreword&lt;/h3&gt;
 
-&lt;h3 id=&quot;default&quot;&gt;Default&lt;/h3&gt;
+&lt;p&gt;This is the first article of this site.&lt;/p&gt;
 
-&lt;p&gt;This is a paragraph. It should not have any alignment of any kind. It should just flow like you would normally expect. Nothing fancy. Just straight up text, free flowing, with love. Completely neutral and not picking a side or sitting on the fence. It just is. It just freaking is. It likes where it is. It does not feel compelled to pick a side. Leave him be. It will just be better that way. Trust me.&lt;/p&gt;
+&lt;h3 id=&quot;what-i-want&quot;&gt;What I Want&lt;/h3&gt;
 
-&lt;h3 id=&quot;left-align&quot;&gt;Left Align&lt;/h3&gt;
+&lt;p&gt;I am a story teller who want to share life with u guys.
+Hope u enjoy it.&lt;/p&gt;
 
-&lt;p style=&quot;text-align: left;&quot;&gt;This is a paragraph. It is left aligned. Because of this, it is a bit more liberal in it’s views. It’s favorite color is green. Left align tends to be more eco-friendly, but it provides no concrete evidence that it really is. Even though it likes share the wealth evenly, it leaves the equal distribution up to justified alignment.&lt;/p&gt;
-
-&lt;h3 id=&quot;center-align&quot;&gt;Center Align&lt;/h3&gt;
-
-&lt;p style=&quot;text-align: center;&quot;&gt;This is a paragraph. It is center aligned. Center is, but nature, a fence sitter. A flip flopper. It has a difficult time making up its mind. It wants to pick a side. Really, it does. It has the best intentions, but it tends to complicate matters more than help. The best you can do is try to win it over and hope for the best. I hear center align does take bribes.&lt;/p&gt;
-
-&lt;h3 id=&quot;right-align&quot;&gt;Right Align&lt;/h3&gt;
-
-&lt;p style=&quot;text-align: right;&quot;&gt;This is a paragraph. It is right aligned. It is a bit more conservative in it’s views. It’s prefers to not be told what to do or how to do it. Right align totally owns a slew of guns and loves to head to the range for some practice. Which is cool and all. I mean, it’s a pretty good shot from at least four or five football fields away. Dead on. So boss.&lt;/p&gt;
-
-&lt;h3 id=&quot;justify-align&quot;&gt;Justify Align&lt;/h3&gt;
-
-&lt;p style=&quot;text-align: justify;&quot;&gt;This is a paragraph. It is justify aligned. It gets really mad when people associate it with Justin Timberlake. Typically, justified is pretty straight laced. It likes everything to be in it’s place and not all cattywampus like the rest of the aligns. I am not saying that makes it better than the rest of the aligns, but it does tend to put off more of an elitist attitude.&lt;/p&gt;</content><author><name>Konwan</name><email>happy@happy.com</email></author><summary>:
-  - Markup
-tags:
-  - alignment
-  - content
-  - css
-  - markup
-—</summary></entry></feed>
+&lt;p&gt;It will separate to few section with some topic:
+  1.Inspiration 
+  2.Music
+  3.Tech&lt;/p&gt;</content><author><name>Konwan</name><email>happy@happy.com</email></author><category term="nothing" /><summary>Foreword</summary></entry></feed>

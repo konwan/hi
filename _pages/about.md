@@ -48,10 +48,10 @@ The theme includes responsive layouts (`single`, `archive`, and `splash` pages) 
 
 For even more demo pages check the [posts archive][year-archive].
 
-[header-image-post]: {{ base_path }}{% post_url 2016-04-09-test %}
-[gallery-post]: {{ base_path }}{% post_url 2016-04-09-test %}
-[html-tags-post]: {{ base_path }}{% post_url 2016-04-09-test %}
-[syntax-post]: {{ base_path }}{% post_url 2016-04-09-test %}
+[header-image-post]: {{ base_path }}{% post_url 2016-05-31-hello %}
+[gallery-post]: {{ base_path }}{% post_url 2016-05-31-hello %}
+[html-tags-post]: {{ base_path }}{% post_url 2016-05-31-hello %}
+[syntax-post]: {{ base_path }}{% post_url 2016-05-31-hello %}
 [categories-archive]: {{ base_path }}/categories/
 [tags-archive]: {{ base_path }}/tags/
 [year-archive]: {{ base_path }}/year-archive/
