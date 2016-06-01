@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /about/
 title: "About"
 excerpt: "I am who I am"
