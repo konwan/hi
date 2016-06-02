@@ -1,5 +1,5 @@
 ---
-title:   "github pages with jekyll"
+title:   "Github pages with jekyll"
 excerpt: "memo for building blog with github pages and jelly "
 layout:  archive
 author_profile: true
