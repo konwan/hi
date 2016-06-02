@@ -11,7 +11,7 @@ tags:
 ---
 
 
-##### **[introduction]**
+##### ** <a name="step1"> [introduction]</a>**
 1. GitHub Pages =>  
 a public web pages and freely hosted on GitHub’s github.io domain or on a custom domain name of your choice. GitHub Pages are powered by Jekyll behind the scenes, so in addition to supporting regular HTML content, they’re also a great way to host your Jekyll-powered website for free.
 
@@ -31,30 +31,31 @@ a simple, blog-aware, static site generator. It takes a template directory conta
 |-- _site  
 |-- index.html  
 
-_config.yml  
+>_config.yml  
 config file 
 
-_includes  
+>_includes  
 template partials such as header, footer
 
-_layouts  
+>_layouts  
 define by YAML front matter，{ { content }} used to insert data to th layout
 
-_posts  
+>_posts  
 blog content(mf/html/textfile) naming with year-month-date-title.md  
 
-_site  
+>_site  
 Jekyll output 
 
 ##### **[local jekyll]**      
 1. install ruby  (ruby -v)
 2. gem install jekyll
 3. gem install bundler
-4. empty => jekyll new my-site
-           cd my-site && jekyll serve
-   theme => bundler install (download needy package)
-           bundle exec jekyll serve  
-           * add " gem 'package-name' " to Gemfile if bundle install some package fail
+4. empty => 
+    > jekyll new my-site  
+    > cd my-site && jekyll serve   
+    > theme => bundler install (download needy package)
+    > bundle exec jekyll serve  
+    > **add " gem 'package-name' " to Gemfile if bundle install some package fail**
 
 ##### **[steps]**
 1. create new repository on github (select add readme.md / setting check "launch automatic page generator")  
@@ -66,9 +67,8 @@ Jekyll output
 5. change _config.yml
 6. update menu _data/navigation.yml and link to _pages/file  （change minimal-mistakes config）
 
-##### **[markdown]**         
-online markdown edit [Md Edit]
-
+##### **[markdown]**  
+online editor [Md Edit]   
 * empty line : 2 tabs        
 * title      : 1~6 #     
 * list       : * / -     
@@ -88,4 +88,3 @@ online markdown edit [Md Edit]
 [Jekyll Bootstrap]: http://jekyllbootstrap.com/ 
 [Md Edit]:          http://dillinger.io/    
 [MadeMistakes]:     https://mademistakes.com/work/
-
