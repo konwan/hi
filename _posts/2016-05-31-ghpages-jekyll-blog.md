@@ -11,7 +11,7 @@ tags:
 ---
 
 
-##### ** <a name="step1"> [introduction]</a>**
+<a name="step1"> ##### ** [introduction]** </a>
 1. GitHub Pages =>  
 a public web pages and freely hosted on GitHub’s github.io domain or on a custom domain name of your choice. GitHub Pages are powered by Jekyll behind the scenes, so in addition to supporting regular HTML content, they’re also a great way to host your Jekyll-powered website for free.
 
@@ -50,7 +50,7 @@ Jekyll output
 1. install ruby  (ruby -v)
 2. gem install jekyll
 3. gem install bundler
-4. empty => 
+4. empty =>   
     > jekyll new my-site  
     > cd my-site && jekyll serve   
     > theme => bundler install (download needy package)
@@ -78,7 +78,7 @@ online editor [Md Edit]
 * link       : "[" words "]" (link)      
 * photo      : !"[" alt text "]"(link)   
 * change color : \`    
-* color line   : \```         
+* color line   : {```}       
 * use html     : \``` html / sh      
 
    
