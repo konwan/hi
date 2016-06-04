@@ -8,6 +8,8 @@ categories:
 tags:
   - jekyll
   - git
+  - liquid
+  - markdown
 ---
 
 
@@ -79,12 +81,15 @@ online editor [Md Edit]
 * photo      : !"[" alt text "]"(link)   
 * change color : \`    
 * color line   : \`\`\`         
-* use html     : \`\`\` html / sh      
+* use html     : \`\`\` html / sh       
+
 
    
 [GitHub Pages]:     https://pages.github.com/   
 [Jekyll]:           https://jekyllrb.com/   
+[Jekyll Doc]:       http://jekyllcn.com/docs/templates/
 [Jekyll Sites]:     https://github.com/mojombo/jekyll/wiki/Sites    
 [Jekyll Bootstrap]: http://jekyllbootstrap.com/ 
 [Md Edit]:          http://dillinger.io/    
 [MadeMistakes]:     https://mademistakes.com/work/
+[Liquid]:           https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
