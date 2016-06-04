@@ -92,4 +92,5 @@ online editor [Md Edit]
 [Jekyll Bootstrap]: http://jekyllbootstrap.com/ 
 [Md Edit]:          http://dillinger.io/    
 [MadeMistakes]:     https://mademistakes.com/work/
+[MadeMistakes-gb]:  https://github.com/mmistakes/minimal-mistakes/tree/gh-pages
 [Liquid]:           https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
