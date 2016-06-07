@@ -35,7 +35,7 @@ drwxr-xr-x  1   cindy cindy  2984 2016-04-27 12:22 dir
 ```
 
 
-1. auth 
+1. auth   
     ```bash
     d       rwx    r-x     rw-   
     type    owner  group   others
@@ -61,7 +61,8 @@ drwxr-xr-x  1   cindy cindy  2984 2016-04-27 12:22 dir
         group = r-x = 4+0+1 = 5
         others= --- = 0+0+0 = 0
         => chmod 750 file 
-        => means owner can read, write and execute; who in tho same group can read and execute and others can do nothing
+        => means owner can read, write and execute; 
+           who in tho same group can read and execute and others can do nothing
 > chmod string file
         `+`: add
         `-`: delete
