@@ -36,12 +36,12 @@ drwxr-xr-x  1   cindy cindy  2984 2016-04-27 12:22 dir
 
 
 1. auth   
-```bash
+  ```
     d       rwx    r-x     rw-   
     type    owner  group   others
     
     #meaning: owner can read, write and execute; who in tho same group can read and execute
-``` 
+  ``` 
 2. links (how many links to same i-node)
 3. owner
 4. group
