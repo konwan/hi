@@ -6,7 +6,8 @@ author_profile: true
 categories: 
   - job
 tags:
-  - sh
+  - shell
+  - command
 modified: 2016-06-07T11:27:37-04:00
 ---
 
