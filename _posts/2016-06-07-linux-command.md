@@ -32,16 +32,15 @@ modified: 2016-06-07T12:27:37-04:00
 drwxr-xr-x  1   cindy cindy  2984 2016-04-27 12:22 dir
 ---------- ---  ----- -----  ---- ---------- ----- ----
 (1)        (2)  (3)   (4)    (5)  (6)        (7)   (8)
+
+d       rwx    r-x     rw-   
+type    owner  group   others
+    
+#meaning: owner can read, write and execute; who in tho same group can read and execute   
 ```
 
 
 1. auth   
-  ```   
-    d       rwx    r-x     rw-   
-    type    owner  group   others
-    
-    #meaning: owner can read, write and execute; who in tho same group can read and execute   
-  ``` 
 2. links (how many links to same i-node)
 3. owner
 4. group
