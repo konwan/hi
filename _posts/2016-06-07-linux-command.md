@@ -8,9 +8,9 @@ categories:
 tags:
   - linux
   - command
-modified: 2016-06-07T12:27:37-04:00
+modified: 2016-06-07T16:27:37-04:00
 ---
-## cd / mv / cp (enter dir, move or change name, copy)
+__## cd / mv / cp (enter dir, move or change name, copy)__
 
 ```bash
 > cd dir
@@ -22,7 +22,7 @@ modified: 2016-06-07T12:27:37-04:00
 
 
 
-## ls / ll  (list file and dir)
+__## ls / ll  (list file and dir)__
  
 ```bash
 > ls /tmpdir
@@ -49,7 +49,7 @@ type    owner  group   others
 7. create time
 8. file name 
 
-## chown / chgrp / chmod (change owner, group, auth)
+__## chown / chgrp / chmod (change owner, group, auth)__
 ```-R: Recursive```
 
 ```bash
@@ -77,5 +77,12 @@ type    owner  group   others
         => ex: o-rx, u=x,g=r,o= 
 ```
 
+__ ## crontab __
 
+job scheduler 
 
+```bash
+$ crontab -l:  list 
+$ crontab -e:  edit
+$ crontab -r:  delete all crontab 全部清除！（ 小心使用 ）
+```
