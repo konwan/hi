@@ -11,14 +11,15 @@ modified: 2016-07-14T16:27:37-04:00
 ---
 
 __## step1  - add user hadoop __    
+
 ```bash
-[root@localhost ~]# useradd -m hadoop -s /bin/bash
-[root@localhost ~]# passwd hadoop
+[root@localhost ~]# useradd -m hadoop -s /bin/bash    
+[root@localhost ~]# passwd hadoop   
 [root@localhost ~]# vim /etc/sudoers        /   sudo adduser hadoop sudo         
                     visudo =>  hadoop  ALL=(ALL)       ALL 
 ```
 
-__## step2  -  ssh key __     
+__## step2  -  ssh key__     
 ```bash
 [hadoop@slave2 ~]$ rpm -qa | grep ssh      check installed ssh ornot
 openssh-clients-5.3p1-84.1.el6.x86_64
