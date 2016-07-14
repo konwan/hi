@@ -20,6 +20,7 @@ __## step1  - add user hadoop__
 ```
 
 __## step2  -  ssh key__     
+
 ```bash
 [hadoop@slave2 ~]$ rpm -qa | grep ssh      check installed ssh ornot
 openssh-clients-5.3p1-84.1.el6.x86_64
@@ -39,7 +40,7 @@ openssh-server-5.3p1-84.1.el6.x86_64
 
 __## step3 - install java__    
 
-two kind of java can use, Linux system default setting is OpenJDK, CentOS 6.4 only install java jre  :    
+two kind of java, Linux system default setting is OpenJDK, CentOS 6.4 only install java jre  :    
   1. JDK of Oracle    
   2. OpenJDK    
 
