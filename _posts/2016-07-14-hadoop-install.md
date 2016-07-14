@@ -72,5 +72,6 @@ check            =>  /usr/local/hadoop/bin/hadoop version
 
 __## step5 - setting__   
 1. local    
+   ---
 2. Single node cluster    
 3. cluster    
