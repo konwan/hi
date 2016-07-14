@@ -10,7 +10,7 @@ tags:
 modified: 2016-07-14T16:27:37-04:00
 ---
 
-__## step1  - add user hadoop __    
+__## step1  - add user hadoop__    
 
 ```bash
 [root@localhost ~]# useradd -m hadoop -s /bin/bash    
@@ -37,7 +37,7 @@ openssh-server-5.3p1-84.1.el6.x86_64
                       home dir of the user = /home/user 
 ``` 
 
-__## step3 - install java __    
+__## step3 - install java__    
 
 two kind of java can use, Linux system default setting is OpenJDK, CentOS 6.4 only install java jre  :    
   1. JDK of Oracle    
@@ -56,7 +56,7 @@ export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk
                    java -version    /    $JAVA_HOME/bin/java -version
 ```
 
-__## step4 - install hadoop __    
+__## step4 - install hadoop__    
 
 ```bash
 install Hadoop at /usr/local (finish installation when uncompress the tar of hadoop)
@@ -69,7 +69,7 @@ unzip            =>  tar -zxf hadoop-2.6.4.tar.gz   /usr/local
 check            =>  /usr/local/hadoop/bin/hadoop version
 ```
 
-__## step5 - setting __   
+__## step5 - setting__   
 1. local    
 2. Single node cluster    
 3. cluster    
