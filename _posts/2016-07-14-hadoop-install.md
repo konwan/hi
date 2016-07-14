@@ -10,7 +10,7 @@ tags:
 modified: 2016-07-14T16:27:37-04:00
 ---
 
-__## step1  - add user hadoop __
+__## step1  - add user hadoop __    
 ```bash
 [root@localhost ~]# useradd -m hadoop -s /bin/bash
 [root@localhost ~]# passwd hadoop
@@ -18,7 +18,7 @@ __## step1  - add user hadoop __
                     visudo =>  hadoop  ALL=(ALL)       ALL 
 ```
 
-__## step2  -  ssh key __ 
+__## step2  -  ssh key __     
 ```bash
 [hadoop@slave2 ~]$ rpm -qa | grep ssh      check installed ssh ornot
 openssh-clients-5.3p1-84.1.el6.x86_64
@@ -36,11 +36,11 @@ openssh-server-5.3p1-84.1.el6.x86_64
                       home dir of the user = /home/user 
 ``` 
 
-__## step3 - install java __ 
+__## step3 - install java __    
 
-two kind of java can use, Linux system default setting is OpenJDK, CentOS 6.4 only install java jre  :
-  1. JDK of Oracle
-  2. OpenJDK
+two kind of java can use, Linux system default setting is OpenJDK, CentOS 6.4 only install java jre  :    
+  1. JDK of Oracle    
+  2. OpenJDK    
 
 ```bash
 [hadoop@slave2 ~]$ sudo yum install java-1.8.0-openjdk.x86_64 java-1.8.0-openjdk-devel.x86_64
@@ -55,7 +55,7 @@ export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk
                    java -version    /    $JAVA_HOME/bin/java -version
 ```
 
-__## step4 - install hadoop __
+__## step4 - install hadoop __    
 
 ```bash
 install Hadoop at /usr/local (finish installation when uncompress the tar of hadoop)
@@ -68,7 +68,7 @@ unzip            =>  tar -zxf hadoop-2.6.4.tar.gz   /usr/local
 check            =>  /usr/local/hadoop/bin/hadoop version
 ```
 
-__## step5 - setting __
-1. local
-2. Single node cluster
-3. cluster
+__## step5 - setting __   
+1. local    
+2. Single node cluster    
+3. cluster    
