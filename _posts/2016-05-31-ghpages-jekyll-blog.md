@@ -54,9 +54,9 @@ Jekyll output
 3. gem install bundler
 4. empty =>   
     > jekyll new my-site  
-    > cd my-site && jekyll serve   
+    > cd my-site && jekyll server
     > theme => bundler install (download needy package)
-    > bundle exec jekyll serve  
+    > **bundle exec jekyll server**
     > **add " gem 'package-name' " to Gemfile if bundle install some package fail**
 
 ##### **[steps]**
